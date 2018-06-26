@@ -20,6 +20,7 @@
       margin: 0;
       padding: 0;
       background-color: #818284;
+      z-index: 1000;
     }
 
     .loader-ring {
@@ -71,6 +72,42 @@
         transform: rotate(360deg);
       }
     }
+
+    .view-box {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #d8dce6;
+      overflow-y: scroll;
+      z-index: 100;
+    }
+
+    .screen:nth-of-type(1) {
+      padding-top: 56px;
+    }
+
+    .nav-column {
+      position: fixed;
+      top: 30%;
+      right: 5%;
+      z-index: 500;
+    }
+
+    .nav-column a {
+      color: #093d71;
+    }
+
+    a.active {
+      color: #007bff;
+    }
+
+    @media screen and (max-width:1200px) {
+      .nav-column {
+        display: none;
+      }
+    }
   </style>
 </head>
 
@@ -81,49 +118,126 @@
       <div class='loader-ring-track'></div>
     </div>
   </div>
+  
+  <div class="view-box">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="./content/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Bootstrap
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="nav flex-column nav-column" id="nav_column">
+        <a class="nav-link active" href="#section1">first</a>
+        <a class="nav-link" href="#section2">second</a>
+        <a class="nav-link" href="#section3">third</a>
+        <a class="nav-link" href="#section4">fourth</a>
+        <a class="nav-link" href="#section5">fifth</a>
+        <a class="nav-link" href="#section6">sixth</a>
+      </nav>
+    <div class="container-fluid container-main">
 
+      <div class="row screen justify-content-center" id="section1">
+        <div class="col-12 col-xl-10">
+          <h1>
+            <a href="#" title="">Hello, world1</a>
+          </h1>
+          <h2>Hello, world1!</h2>
+          <h3>Hello, world1!</h3>
+          <h4>Hello, world1!</h4>
+          <h5>
+            <Hello, world1!</h5>
+        </div>
 
+      </div>
 
-  <div class="container-fluid container-main">
-    <div class="row screen">
+      <div class="row screen justify-content-center" id="section2">
+        <div class="col-12 col-xl-10">
+          <h1>
+            <a href="#section2" title="">Hello, world2</a>
+          </h1>
+        </div>
+      </div>
 
-      <h1>Hello, world1!</h1>
-    </div>
+      <div class="row screen justify-content-center" id="section3">
+        <div class="col-12 col-xl-10">
+          <h1>
+            <a href="#section1" title="">Hello, world3</a>
+          </h1>
+        </div>
+      </div>
 
-    <div class="row screen">
+      <div class="row screen justify-content-center" id="section4">
+        <div class="col-12 col-xl-10">
+          <h1>Hello, world4!</h1>
+        </div>
+      </div>
 
-        <h1>Hello, world2!</h1>
-    </div>
+      <div class="row screen justify-content-center" id="section5">
+        <div class="col-12 col-xl-10">
+          <h1>Hello, world5!</h1>
+        </div>
+      </div>
 
-    <div class="row screen">
-
-        <h1>Hello, world3!</h1>
-    </div>
-
-    <div class="row screen">
-
-        <h1>Hello, world4!</h1>
+      <div class="row screen justify-content-center" id="section6">
+        <div class="col-12 col-xl-10">
+          <h1>Hello, world6!</h1>
+        </div>
+      </div>
     </div>
   </div>
 
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script> -->
   <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
   <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
   <script>
     $(function () {
-
+      $("#nav_column a").click(function () {
+        //"a.title-dw" title-dw是啊标签的css选择器class="title-dw".
+        $(".view-box").animate({
+          scrollTop: $($(this).attr("href")).get(0).offsetTop + -400 + "px"
+          //document.getElementById("section4").offsetTop
+        }, {
+            duration: 800,
+            easing: "swing"
+          });
+        return false;
+      });
     });
 
     $(window).on("load resize", function () {
       var h = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight;
       $(".container-main .screen").css("height", h);
-
+      $('.view-box').scrollspy({ target: '#nav_column', offset: 400 });
       $('.loading').fadeOut(500);
     });
   </script>
