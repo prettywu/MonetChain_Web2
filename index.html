@@ -78,28 +78,28 @@
       z-index: 100;
     }
 
-    @media screen and (min-width:1200px) {
-      .nav-top {
-        padding-left: 0;
-        padding-right: 0;
-      }
+    .nav-row {
+      background-color: #4b14a0e8;
     }
 
-    @media screen and (max-width:768px) {
-      .nav-top {
-        background-color: #262b8a;
-      }
+    .nav-top .navbar-brand>img {
+      height: 30px;
+      vertical-align: top;
     }
+
+
 
     .nav-top .navbar-nav .nav-link,
     .nav-top .navbar-nav a {
       color: #ffffff;
-      border: 1px solid rgb(0,0,0,0);
+      border: 1px solid rgb(0, 0, 0, 0);
     }
 
     .nav-top .navbar-nav .nav-link:hover {
       border: 1px solid #0139aa;
     }
+
+
 
     .nav-top .dropdown-menu {
       border: none;
@@ -125,14 +125,19 @@
       color: #ffffff;
     }
 
+    p {
+      color: #8dc9fd;
+    }
+
     .screen:nth-of-type(2) {
-      padding-top: 56px;
+      padding-top: 58px;
     }
 
     .nav-right {
       position: fixed;
       top: 30%;
       right: 5%;
+      z-index: 1000;
     }
 
     .nav-right a {
@@ -160,6 +165,33 @@
     #section2 {
       background-image: -webkit-radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
     }
+
+    @media screen and (min-width:1200px) {
+      .nav-top {
+        padding: 0.5rem 0;
+      }
+
+      .nav-top .navbar-brand {
+        font-size: 2rem;
+        vertical-align: middle;
+      }
+
+      .nav-top .navbar-brand>img {
+        height: 45px;
+        margin-bottom: 5px;
+        vertical-align: middle;
+      }
+
+      .screen:nth-of-type(2) {
+        padding-top: 80px;
+      }
+    }
+
+    @media screen and (max-width:768px) {
+      .nav-top {
+        background-color: #262b8a;
+      }
+    }
   </style>
 </head>
 
@@ -182,11 +214,11 @@
     </nav>
 
     <div class="container-fluid container-main">
-      <div class="row justify-content-center fixed-top">
-        <div class="col-12 col-xl-11">
+      <div class="row justify-content-center fixed-top nav-row">
+        <div class="col-12 col-xl-10">
           <nav class="navbar navbar-dark navbar-expand-md nav-top">
             <a class="navbar-brand" href="#">
-              <img src="./content/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Bootstrap
+              <img src="./content/img/logo.png" class="d-inline-block" alt=""> Bootstrap
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
               aria-label="Toggle navigation">
@@ -227,41 +259,48 @@
       </div>
 
       <div class="row screen justify-content-center" id="section1">
-        <div class="col-12 col-xl-10">
-          <h1>Hello, world1</h1>
-          <h2>Hello, world1!</h2>
-          <h3>Hello, world1!</h3>
-          <h4>Hello, world1!</h4>
-          <h5> Hello, world1!</h5>
+        <canvas class="position-absolute" id="canvas" style="top:0;"></canvas>
+        <div class="col-12 col-xl-9">
+          <div class="row h-100 align-items-center">
+            <div class="col ">
+              <h1>MonetChain</h1>
+              <p class="mt-3">一个专注于垂直领域的区块链解决方案，
+                <br/>通过MonetChain打造稀缺资产及高端奢侈品全新生态</p>
+            </div>
+            <div class="col">
+              <img src="./content/img/img1.jpg" src="">
+            </div>
+          </div>
+
         </div>
       </div>
 
       <div class="row screen justify-content-center" id="section2">
-        <div class="col-12 col-xl-10">
-          <h1>Hello, world2</h1>
+        <div class="col-12 col-xl-9">
+
         </div>
       </div>
 
       <div class="row screen justify-content-center" id="section3">
-        <div class="col-12 col-xl-10">
+        <div class="col-12 col-xl-9">
           <h1>Hello, world3</h1>
         </div>
       </div>
 
       <div class="row screen justify-content-center" id="section4">
-        <div class="col-12 col-xl-10">
+        <div class="col-12 col-xl-9">
           <h1>Hello, world4!</h1>
         </div>
       </div>
 
       <div class="row screen justify-content-center" id="section5">
-        <div class="col-12 col-xl-10">
+        <div class="col-12 col-xl-9">
           <h1>Hello, world5!</h1>
         </div>
       </div>
 
       <div class="row screen justify-content-center" id="section6">
-        <div class="col-12 col-xl-10">
+        <div class="col-12 col-xl-9">
           <h1>Hello, world6!</h1>
         </div>
       </div>
@@ -281,6 +320,19 @@
     crossorigin="anonymous"></script>
 
   <script>
+    var canvas;
+    var ctx;
+    var w;
+    var h;
+
+    var hue = 217;
+    var stars = [];
+    var count = 0;
+    var maxStars = 1200;
+
+    var canvas2;
+    var ctx2;
+
     $(function () {
       $("#nav_right a").click(function () {
         //"a.title-dw" title-dw是啊标签的css选择器class="title-dw".
@@ -293,15 +345,143 @@
           });
         return false;
       });
+
+      animation();
     });
 
     $(window).on("load resize", function () {
-      var h = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight;
-      $(".container-main .screen").css("height", h);
+      var wh = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight;
+      $(".container-main .screen").css("height", wh);
       $('.view-box').scrollspy({ target: '#nav_right', offset: 400 });
       $('.loading').fadeOut(500);
+
+
     });
+
+    function initAnimation() {
+      canvas = document.getElementById('canvas');
+      ctx = canvas.getContext('2d');
+      // w = canvas.width = window.innerWidth,
+      // h = canvas.height = window.innerHeight,
+      w = canvas.width = getElementSize("section1", "width");
+      h = canvas.height = getElementSize("section1", "height");
+
+      canvas2 = document.createElement('canvas');
+      ctx2 = canvas2.getContext('2d');
+      canvas2.width = 100;
+      canvas2.height = 100;
+      var half = canvas2.width / 2;
+      var gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+      gradient2.addColorStop(0.025, '#fff');
+      //gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+      // gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+      //gradient2.addColorStop(0.25,'#061649');
+      //gradient2.addColorStop(1, 'transparent');
+      gradient2.addColorStop(0.1, '#80bcff');
+      gradient2.addColorStop(0.25, 'transparent');
+
+      ctx2.fillStyle = gradient2;
+      ctx2.beginPath();
+      ctx2.arc(half, half, half, 0, Math.PI * 2);
+      ctx2.fill();
+
+      for (var i = 0; i < maxStars; i++) {
+        new Star();
+      }
+    }
+
+    // End cache
+
+    function random(min, max) {
+      if (arguments.length < 2) {
+        max = min;
+        min = 0;
+      }
+
+      if (min > max) {
+        var hold = max;
+        max = min;
+        min = hold;
+      }
+
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function maxOrbit(x, y) {
+      var max = Math.max(x, y);
+      var diameter = Math.round(Math.sqrt(max * max + max * max));
+      return diameter / 2;
+    }
+
+    var Star = function () {
+
+      this.orbitRadius = random(maxOrbit(w, h));
+      this.radius = random(60, this.orbitRadius) / 12;
+      this.orbitX = w / 2;
+      this.orbitY = h / 2;
+      this.timePassed = random(0, maxStars);
+      this.speed = random(this.orbitRadius) / 900000;
+      this.alpha = random(5, 15) / 10;
+
+      count++;
+      stars[count] = this;
+    }
+
+    Star.prototype.draw = function () {
+      var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX;
+      var y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY;
+      var twinkle = random(10);
+
+      if (twinkle === 1 && this.alpha > 0) {
+        this.alpha -= 0.05;
+      } else if (twinkle === 2 && this.alpha < 1) {
+        this.alpha += 0.05;
+      }
+
+      ctx.globalAlpha = this.alpha;
+      ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+      this.timePassed += this.speed;
+    }
+
+
+
+    function animation() {
+      if (!canvas) {
+        initAnimation();
+      }
+
+      // ctx.globalCompositeOperation = 'source-over';
+      // ctx.globalAlpha = 0.1;
+      // ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 1)';
+      // ctx.fillRect(0, 0, w, h);
+
+      ctx.clearRect(0,0,w,h);
+
+      //ctx.globalCompositeOperation = 'copy';
+      for (var i = 1, l = stars.length; i < l; i++) {
+        stars[i].draw();
+      };
+
+      window.requestAnimationFrame(animation);
+    }
+
+    function getElementSize(id, type) {
+      var reg = /(\d*)px/g;
+      var str;
+      if (type == 'width')
+        str = window.getComputedStyle(document.getElementById(id)).width;
+      else
+        str = window.getComputedStyle(document.getElementById(id)).height;
+
+      var arr = reg.exec(str);
+
+      if (arr && arr.length >= 1)
+        return arr[1];
+      else
+        return null;
+    }
   </script>
+
 </body>
 
 </html>
