@@ -105,8 +105,8 @@
 
 .nav-right a {
     color: #fefdf8;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .nav-right a.active {
@@ -126,6 +126,7 @@
 }
 
 .nav-sign>i {
+    position:relative;
     display: inline-block;
     width: 6px;
     height: 6px;
@@ -135,16 +136,48 @@
     background-color: #007bff;
 }
 
-.nav-right a.active .nav-sign,
-.nav-right .nav-link:hover .nav-sign {
+.nav-sign>i:before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 33px;
+    background-color: #007bff;
+    bottom: 7px;
+    left: 2px;
+}
+
+.nav-right a:first-child .nav-sign>i:before{
+display: none;
+}
+
+.nav-sign>i:after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 33px;
+    background-color: #007bff;
+    top: 7px;
+    left: 2px;
+}
+
+.nav-right a:last-child .nav-sign>i:after{
+    display: none;
+    }
+
+.nav-right a.active .nav-sign{
     border: 2px solid #50a3ff;
     box-shadow:0px 0px 5px;
 }
+.nav-right .nav-link:hover .nav-sign {
+    border: 2px solid #50a3ff;
+}
 
-.nav-right a.active .nav-sign i,
-.nav-right .nav-link:hover .nav-sign i{
+.nav-right a.active .nav-sign i{
     background-color: #50a3ff;
     box-shadow:0px 0px 5px;
+}
+.nav-right .nav-link:hover .nav-sign i{
+    background-color: #50a3ff;
 }
 
 
@@ -187,6 +220,61 @@ p {
 
 .div-chart {
     width: 100%;
+}
+
+.div-team-row{
+    /* display:flex; */
+    /* flex-direction: row; */
+    white-space: nowrap;
+    overflow-y: overlay;
+}
+
+.team-item{
+    position: relative;
+    display: inline-block;
+    width:200px;
+    height: 200px;
+    vertical-align: bottom;
+    /* flex-shrink:0; */
+}
+
+.team-item>img{
+    width:100%;
+    height:100%;
+}
+
+.team-item .name{
+    position: absolute;
+    left:5px;
+    bottom: 35px;
+    color: #fff;
+}
+
+.team-item .position{
+    position: absolute;
+    left:5px;
+    bottom: 15px;
+    color: #fff;
+}
+
+.team-item .info{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    color: #50a3ff;
+    opacity:0;
+    top:0;
+    white-space:normal;
+    
+    transition: opacity 1s ease-out 0s,top 1s ease-out 0s;
+/* 
+    -webkit-transition: opacity 1s ease-out 0s;
+    -webkit-transition:top 1s ease-out 0s; */
+}
+
+.team-item:hover .info{
+    opacity:1;
+    top:100%;
 }
 
 @media screen and (min-width:1200px) {
