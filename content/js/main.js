@@ -86,6 +86,32 @@ $(window).on("load resize", function () {
             ]
         }]
     });
+
+    // var mySwiper = new Swiper ('.swiper-container', {
+    //     direction: 'horizontal',
+    //     autoplay:{
+    //         delay:1000
+    //     },
+    //     loop: false,
+    //     freeMode:true,
+    //     slidesPerView:'auto',
+    //     speed:5000,
+    //     // 如果需要分页器
+    //     // pagination: {
+    //     //   el: '.swiper-pagination',
+    //     // },
+        
+    //     // 如果需要前进后退按钮
+    //     // navigation: {
+    //     //   nextEl: '.swiper-button-next',
+    //     //   prevEl: '.swiper-button-prev',
+    //     // },
+        
+    //     // 如果需要滚动条
+    //     // scrollbar: {
+    //     //   el: '.swiper-scrollbar',
+    //     // },
+    //   });     
 });
 
 function initAnimation() {
