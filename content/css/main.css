@@ -100,15 +100,15 @@
 
 .nav-right {
     position: fixed;
-    top: 30%;
-    right: 5%;
+    top: 15%;
+    right: 3%;
     z-index: 1000;
 }
 
 .nav-right a {
     color: #fefdf8;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-right a.active {
@@ -199,7 +199,6 @@ p {
     border-radius: 1px;
     background-color: #002f7180;
     color: #fff;
-    font-size: 0.8rem;
 }
 
 .btn-main:hover{
@@ -212,21 +211,68 @@ p {
 }
 
 .screen {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #061649;
 }
 
  #section2, #section3, #section4, #section5, #section6 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
 }
 
 #section1 {
     padding-bottom:50px;
     background-image: -webkit-radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
+    background-image: -o-radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
+    background-image: -moz-radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
+    background-image: radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
 }
 
 #section2 {
     background-image: -webkit-radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
+    background-image: -o-radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
+    background-image: -moz-radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
+    background-image: radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
+}
+
+#section3 {
+    background-image: -webkit-radial-gradient(circle at 0% 100%, #4a148c, #061649 45%, #061649 100%);
+    background-image: -o-radial-gradient(0% 100%, circle, #4a148c, #061649 45%, #061649 100%);
+    background-image: -moz-radial-gradient(0% 100%, circle, #4a148c, #061649 45%, #061649 100%);
+    background-image: radial-gradient(circle at 0% 100%, #4a148c, #061649 45%, #061649 100%);
+}
+
+#section4 {
+    background-image: -webkit-radial-gradient(circle at 0% 0%, #4a148c, #061649 45%, #061649 100%);
+    background-image: -o-radial-gradient(0% 0%, circle, #4a148c, #061649 45%, #061649 100%);
+    background-image: -moz-radial-gradient(0% 0%, circle, #4a148c, #061649 45%, #061649 100%);
+    background-image: radial-gradient(circle at 0% 0%, #4a148c, #061649 45%, #061649 100%);
+}
+
+#section5 {
+    background-image: -webkit-radial-gradient(at 100% 100%, #4a148c, #061649 40%, #061649 100%);
+    background-image: -o-radial-gradient(100% 100%, circle, #4a148c, #061649 40%, #061649 100%);
+    background-image: -moz-radial-gradient(100% 100%, circle, #4a148c, #061649 40%, #061649 100%);
+    background-image: radial-gradient(at 100% 100%, #4a148c, #061649 40%, #061649 100%);
+}
+
+#section6 {
+    background-image: -webkit-radial-gradient(at 100% 0%, #4a148c, #061649 40%, #061649 100%);
+    background-image: -o-radial-gradient(100% 0%, circle, #4a148c, #061649 40%, #061649 100%);
+    background-image: -moz-radial-gradient(100% 0%, circle, #4a148c, #061649 40%, #061649 100%);
+    background-image: radial-gradient(at 100% 0%, #4a148c, #061649 40%, #061649 100%);
+}
+
+#section7 {
+    background-image: -webkit-radial-gradient(at 0% 100%, #610e9a, #061649 40%, #061649 100%);
+    background-image: -o-radial-gradient(0% 100%, circle, #610e9a, #061649 40%, #061649 100%);
+    background-image: -moz-radial-gradient(0% 100%, circle, #610e9a, #061649 40%, #061649 100%);
+    background-image: radial-gradient(at 0% 100%, #610e9a, #061649 40%, #061649 100%);
+}
+
+#section7{
+
 }
 
 .banner-title {
@@ -286,20 +332,48 @@ p {
     height:100%;
     color: #50a3ff;
     opacity:0;
-    top:0;
     white-space:normal;
-    
-    transition: opacity 1s ease-out 0s,top 1s ease-out 0s;
+    transition: opacity 1s ease-out 0s,top 1s ease-out 0s,bottom 1s ease-out 0s;
 /* 
     -webkit-transition: opacity 1s ease-out 0s;
     -webkit-transition:top 1s ease-out 0s; */
 }
 
-.team-item:hover .info{
+.team-item .info-down{
+    top:0;
+}
+
+.team-item .info-up{
+    bottom:0;
+}
+
+.team-item:hover .info-down{
     opacity:1;
     top:100%;
 }
 
+.team-item:hover .info-up{
+    opacity:1;
+    bottom:100%;
+}
+
+.ul-contract a,.ul-contract i{
+line-height: 2.5rem;
+font-size: 1.1rem
+}
+
+.row-client>div{
+text-align: center;
+margin-bottom:25px;
+margin-top: 25px;
+}
+.row-client img{
+width:75%;
+}
+.footer{
+    padding-top:0px;
+    padding-bottom:20px;
+}
 @media screen and (min-width:1200px) {
     .nav-top {
         padding: 0.5rem 0;
@@ -318,8 +392,20 @@ p {
     }
 }
 
+@media screen and (min-width:768px){
+    .ul-contract.contract-right{
+        text-align: right;
+            }
+    
+}
+
+
 @media screen and (max-width:768px) {
     .nav-top {
         background-color: #262b8a;
     }
+    .banner-title {
+        font-size: 4rem;
+    }
+    
 }

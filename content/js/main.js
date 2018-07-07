@@ -15,7 +15,7 @@ $(function () {
     $("#nav_right a").click(function () {
         //"a.title-dw" title-dw是啊标签的css选择器class="title-dw".
         $(".view-box").animate({
-            scrollTop: $($(this).attr("href")).get(0).offsetTop + -400 + "px"
+            scrollTop: $($(this).attr("href")).get(0).offsetTop + -100 + "px"
             //document.getElementById("section4").offsetTop
         }, {
                 duration: 800,
@@ -30,7 +30,7 @@ $(function () {
 $(window).on("load resize", function () {
     var wh = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight;
     $("#section1").css("height", wh);
-    $('.view-box').scrollspy({ target: '#nav_right', offset: 400 });
+    $('.view-box').scrollspy({ target: '#nav_right', offset: 100 });
     $('.loading').fadeOut(500);
 
 
@@ -87,31 +87,31 @@ $(window).on("load resize", function () {
         }]
     });
 
-    // var mySwiper = new Swiper ('.swiper-container', {
-    //     direction: 'horizontal',
-    //     autoplay:{
-    //         delay:1000
-    //     },
-    //     loop: false,
-    //     freeMode:true,
-    //     slidesPerView:'auto',
-    //     speed:5000,
-    //     // 如果需要分页器
-    //     // pagination: {
-    //     //   el: '.swiper-pagination',
-    //     // },
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        autoplay:{
+            delay:1000
+        },
+        loop: false,
+        freeMode:true,
+        slidesPerView:'auto',
+        speed:5000,
+        // 如果需要分页器
+        // pagination: {
+        //   el: '.swiper-pagination',
+        // },
         
-    //     // 如果需要前进后退按钮
-    //     // navigation: {
-    //     //   nextEl: '.swiper-button-next',
-    //     //   prevEl: '.swiper-button-prev',
-    //     // },
+        // 如果需要前进后退按钮
+        // navigation: {
+        //   nextEl: '.swiper-button-next',
+        //   prevEl: '.swiper-button-prev',
+        // },
         
-    //     // 如果需要滚动条
-    //     // scrollbar: {
-    //     //   el: '.swiper-scrollbar',
-    //     // },
-    //   });     
+        // 如果需要滚动条
+        // scrollbar: {
+        //   el: '.swiper-scrollbar',
+        // },
+      });     
 });
 
 function initAnimation() {
