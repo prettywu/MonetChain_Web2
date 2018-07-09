@@ -24,19 +24,18 @@ $(function () {
         return false;
     });
 
-    animation();
+
 });
 
 $(window).on("load resize", function () {
     var wh = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight;
     $("#section1").css("height", wh);
     $('.view-box').scrollspy({ target: '#nav_right', offset: 100 });
-    $('.loading').fadeOut(500);
+    animation();
 
-
-    var chart = Highcharts.chart('chart_box', {
+    Highcharts.chart('chart_box', {
         exporting: { enabled: false },
-        colors: ['#2b908f', '#90ee7e', '#f45b5b', '#7798BF', '#aaeeee', '#ff0066','#eeaaee', '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'],
+        colors: ['#2b908f', '#90ee7e', '#f45b5b', '#7798BF', '#aaeeee', '#ff0066', '#eeaaee', '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'],
         chart: {
             type: 'pie',
             options3d: {
@@ -44,8 +43,8 @@ $(window).on("load resize", function () {
                 alpha: 45,
                 beta: 0
             },
-            backgroundColor:'transparent',
-            plotBackgroundColor:'transparent',
+            backgroundColor: 'transparent',
+            plotBackgroundColor: 'transparent',
             style: {
             }
         },
@@ -87,31 +86,33 @@ $(window).on("load resize", function () {
         }]
     });
 
-    var mySwiper = new Swiper ('.swiper-container', {
+    new Swiper('.swiper-container', {
         direction: 'horizontal',
-        autoplay:{
-            delay:1000
+        autoplay: {
+            delay: 1000
         },
         loop: false,
-        freeMode:true,
-        slidesPerView:'auto',
-        speed:5000,
+        freeMode: true,
+        slidesPerView: 'auto',
+        speed: 5000,
         // 如果需要分页器
         // pagination: {
         //   el: '.swiper-pagination',
         // },
-        
+
         // 如果需要前进后退按钮
         // navigation: {
         //   nextEl: '.swiper-button-next',
         //   prevEl: '.swiper-button-prev',
         // },
-        
+
         // 如果需要滚动条
         // scrollbar: {
         //   el: '.swiper-scrollbar',
         // },
-      });     
+    });
+
+    $('.loading').fadeOut(500);
 });
 
 function initAnimation() {
