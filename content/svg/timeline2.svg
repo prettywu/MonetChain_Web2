@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,1024,300">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1026" height="302" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="1920" height="500" x="2" y="2" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#0154fa" fill="none" opacity="0.5" d="m0,287.50007c48.353255,-58.874913 273.724749,-186.975673 367.843923,-181.871422c94.119164,5.10426 135.557451,97.030017 294.37758,30.392338c158.820138,-66.637687 245.432865,-86.777507 360.777759,-107.020915" id="svg_7"/>
+  <ellipse fill="none" stroke="#0154fa" cx="141.99987" cy="186.000133" id="svg_20" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="141.99987" cy="186.000133" id="svg_21" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="248.999794" cy="135.000133" id="svg_22" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="248.999791" cy="135.000133" id="svg_23" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="388.99971" cy="110.000099" id="svg_24" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="388.99971" cy="110.000099" id="svg_25" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="878.999481" cy="60.000025" id="svg_26" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="878.999481" cy="60.000025" id="svg_27" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="511.999694" cy="154.000115" id="svg_28" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="511.999694" cy="154.000115" id="svg_29" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="658.999676" cy="137.000076" id="svg_30" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="658.999676" cy="137.000076" id="svg_31" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="760.999567" cy="97.000049" id="svg_32" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="760.999567" cy="97.000049" id="svg_33" rx="3" ry="3"/>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="95.49987" y="226.500133" id="svg_35" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">发布出版白皮书，</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="95.49987" y="249.500133" id="svg_36" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">代币分配等规则</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="113.49987" y="161.500133" id="svg_38" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2017.12</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="194.499794" y="86.500133" id="svg_39" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">社区线上与线下推</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="194.499794" y="107.500133" id="svg_40" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">广，商务对接洽谈</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="222.499794" y="174.500133" id="svg_41" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.01</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="360.49971" y="81.500097" id="svg_42" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.03</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="328.49971" y="152.500097" id="svg_43" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">交易平台开发，增</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="328.49971" y="173.500097" id="svg_44" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">加代币使用场景及</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="328.49971" y="194.500097" id="svg_45" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">产品合作机制</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="482.499694" y="198.500115" id="svg_46" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.06</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="458.499694" y="101.500115" id="svg_47" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">共识机制，算法，主链</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="458.499694" y="124.500115" id="svg_48" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">设计细节优化及开发</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="630.499676" y="107.500076" id="svg_49" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.08</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="597.499676" y="171.500076" id="svg_50" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">全球著名机构厂家商务</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="597.499676" y="194.500076" id="svg_51" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">拓展与对接，并行测试</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="735.499567" y="138.500049" id="svg_52" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.11</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="716.499567" y="45.500049" id="svg_53" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">真实环境封测及</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="716.499567" y="68.500049" id="svg_54" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">SDK等开发</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="850.499481" y="37.500022" id="svg_55" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2019.02</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="827.499481" y="99.500025" id="svg_56" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">公开超级节点规则，</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="827.499481" y="122.500025" id="svg_57" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">主链正式上线</text>
+ </g>
+</svg>
