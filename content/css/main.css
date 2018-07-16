@@ -73,7 +73,8 @@ p {
 }
 
 .nav-row {
-    background-color: #4b14a0e8;
+    background-color: #4b14a0;
+    opacity: 0.8;
 }
 
 .nav-top .navbar-brand>img {
@@ -227,65 +228,61 @@ p {
     background-color: #061649;
 }
 
-#section2, #section3, #section4, #section5, #section6 {
-    /* padding-top: 60px;
-    padding-bottom: 60px; */
-}
 
 #section1 {
     padding-bottom: 50px;
-    background-image: -webkit-radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
-    background-image: -o-radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
-    background-image: -moz-radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
-    background-image: radial-gradient(0% 0%, circle, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
+    background-image: -webkit-radial-gradient(circle at 0% 0%,#4a148c, #061649 35%, #061649 70%, #11126f 100%);
+    background-image: -o-radial-gradient(circle at 0% 0%, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
+    background-image: -moz-radial-gradient(circle at 0% 0%, #4a148c, #061649 35%, #061649 70%, #11126f 100%);
+    background-image: radial-gradient(circle at 0% 0%,  #4a148c, #061649 35%, #061649 70%, #11126f 100%);
 }
 
 #section2 {
-    background-image: -webkit-radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
-    background-image: -o-radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
-    background-image: -moz-radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
-    background-image: radial-gradient(100% 0%, circle, #11126f, #061649 35%, #061649 100%);
+    background-image: -webkit-radial-gradient(circle at 100% 0%,  #11126f, #061649 35%, #061649 100%);
+    background-image: -o-radial-gradient(circle at 100% 0%,  #11126f, #061649 35%, #061649 100%);
+    background-image: -moz-radial-gradient(circle at 100% 0%,  #11126f, #061649 35%, #061649 100%);
+    background-image: radial-gradient(circle at 100% 0%,  #11126f, #061649 35%, #061649 100%);
 }
 
 #section3 {
     background-image: -webkit-radial-gradient(circle at 0% 100%, #4a148c, #061649 30%, #061649 100%);
-    background-image: -o-radial-gradient(0% 100%, circle, #4a148c, #061649 30%, #061649 100%);
-    background-image: -moz-radial-gradient(0% 100%, circle, #4a148c, #061649 30%, #061649 100%);
+    background-image: -o-radial-gradient(circle at 0% 100%,  #4a148c, #061649 30%, #061649 100%);
+    background-image: -moz-radial-gradient(circle at 0% 100%,  #4a148c, #061649 30%, #061649 100%);
     background-image: radial-gradient(circle at 0% 100%, #4a148c, #061649 30%, #061649 100%);
 }
 
 #section4 {
     background-image: -webkit-radial-gradient(circle at 0% 0%, #4a148c, #061649 30%, #061649 100%);
-    background-image: -o-radial-gradient(0% 0%, circle, #4a148c, #061649 30%, #061649 100%);
-    background-image: -moz-radial-gradient(0% 0%, circle, #4a148c, #061649 30%, #061649 100%);
+    background-image: -o-radial-gradient(circle at 0% 0%,  #4a148c, #061649 30%, #061649 100%);
+    background-image: -moz-radial-gradient(circle at 0% 0%,  #4a148c, #061649 30%, #061649 100%);
     background-image: radial-gradient(circle at 0% 0%, #4a148c, #061649 30%, #061649 100%);
 }
 
 #section5 {
     background-image: -webkit-radial-gradient(circle at 100% 100%, #4a148c, #061649 30%, #061649 100%);
-    background-image: -o-radial-gradient(100% 100%, circle, #4a148c, #061649 30%, #061649 100%);
-    background-image: -moz-radial-gradient(100% 100%, circle, #4a148c, #061649 30%, #061649 100%);
+    background-image: -o-radial-gradient(circle at 100% 100%,  #4a148c, #061649 30%, #061649 100%);
+    background-image: -moz-radial-gradient(circle at 100% 100%,  #4a148c, #061649 30%, #061649 100%);
     background-image: radial-gradient(circle at 100% 100%, #4a148c, #061649 30%, #061649 100%);
 }
 
 #section6 {
     background-image: -webkit-radial-gradient(circle at 100% 0%, #4a148c, #061649 30%, #061649 100%);
-    background-image: -o-radial-gradient(100% 0%, circle, #4a148c, #061649 30%, #061649 100%);
-    background-image: -moz-radial-gradient(100% 0%, circle, #4a148c, #061649 30%, #061649 100%);
+    background-image: -o-radial-gradient(circle at 100% 0%,  #4a148c, #061649 30%, #061649 100%);
+    background-image: -moz-radial-gradient(circle at 100% 0%,  #4a148c, #061649 30%, #061649 100%);
     background-image: radial-gradient(circle at 100% 0%, #4a148c, #061649 30%, #061649 100%);
 }
 
 #section7 {
     background-image: -webkit-radial-gradient(circle at 0% 100%, #610e9a, #061649 30%, #061649 100%);
-    background-image: -o-radial-gradient(0% 100%, circle, #610e9a, #061649 30%, #061649 100%);
-    background-image: -moz-radial-gradient(0% 100%, circle, #610e9a, #061649 30%, #061649 100%);
+    background-image: -o-radial-gradient(circle at 0% 100%,  #610e9a, #061649 30%, #061649 100%);
+    background-image: -moz-radial-gradient(circle at 0% 100%,  #610e9a, #061649 30%, #061649 100%);
     background-image: radial-gradient(circle at 0% 100%, #610e9a, #061649 30%, #061649 100%);
 }
 
 #section8 {
     background-image: -webkit-radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
-    background-image: -o-radial-gradient(0% 0%, circle, #610e9a, #061649 30%, #061649 100%);
-    background-image: -moz-radial-gradient(0% 0%, circle, #610e9a, #061649 30%, #061649 100%);
+    background-image: -o-radial-gradient(circle at 0% 0%,  #610e9a, #061649 30%, #061649 100%);
+    background-image: -moz-radial-gradient(circle at 0% 0%,  #610e9a, #061649 30%, #061649 100%);
     background-image: radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
 }
 
@@ -349,10 +346,21 @@ p {
     font-weight: 600;
 }
 
-.team-item .info {
+.team-item .item-cover,.team-item .info{
     position: absolute;
     width: 100%;
     height: 100%;
+    left:0;
+}
+
+.team-item .item-cover{
+    top:0;
+    background-color:rgba(0, 38, 167, 0.575);
+    transition: background-color 1s ease-out 0s
+}
+
+.team-item .info {
+
     color: #50a3ff;
     opacity: 0;
     white-space: normal;
@@ -360,6 +368,10 @@ p {
     /* 
     -webkit-transition: opacity 1s ease-out 0s;
     -webkit-transition:top 1s ease-out 0s; */
+}
+
+.team-item .info p{
+    margin-top: 1rem;
 }
 
 .team-item .info-down {
@@ -370,13 +382,19 @@ p {
     bottom: 0;
 }
 
-.team-item:hover .info-down {
+.team-item:hover .info{
     opacity: 1;
+}
+
+.team-item:hover .item-cover{
+    background-color:rgba(0, 38, 167, 0);
+}
+
+.team-item:hover .info-down {
     top: 100%;
 }
 
 .team-item:hover .info-up {
-    opacity: 1;
     bottom: 100%;
 }
 
@@ -415,6 +433,11 @@ p {
 
 .content-timeline2 {
     height: 450px;
+}
+
+.swiper-container{
+    margin-left:0;
+    margin-right:0;
 }
 
 @media screen and (min-width:1200px) {

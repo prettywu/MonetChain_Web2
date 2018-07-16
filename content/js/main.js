@@ -120,8 +120,8 @@ function initAnimation() {
     ctx = canvas.getContext('2d');
     // w = canvas.width = window.innerWidth,
     // h = canvas.height = window.innerHeight,
-    w = canvas.width = getElementSize("section1", "width");
-    h = canvas.height = getElementSize("section1", "height");
+    w = canvas.width = document.getElementById('section1').clientWidth;
+    h = canvas.height = document.getElementById('section1').clientHeight;
 
     canvas2 = document.createElement('canvas');
     ctx2 = canvas2.getContext('2d');
@@ -135,7 +135,7 @@ function initAnimation() {
     //gradient2.addColorStop(0.25,'#061649');
     //gradient2.addColorStop(1, 'transparent');
     gradient2.addColorStop(0.1, '#80bcff');
-    gradient2.addColorStop(0.2, 'transparent');
+    gradient2.addColorStop(0.15, 'transparent');
 
     ctx2.fillStyle = gradient2;
     ctx2.beginPath();
