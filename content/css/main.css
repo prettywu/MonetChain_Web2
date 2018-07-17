@@ -317,8 +317,8 @@ p {
 .team-item {
     position: relative;
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     vertical-align: bottom;
     /* flex-shrink:0; */
 }
@@ -331,32 +331,33 @@ p {
 .team-item .name {
     position: absolute;
     left: 5px;
-    bottom: 30px;
-    color: #007bff;
-    font-size: 0.8rem;
+    bottom: 15px;
+    /* color: #007bff; */
+    color:#fff;
+    font-size: 0.7rem;
     font-weight: 600;
 }
 
 .team-item .position {
     position: absolute;
     left: 5px;
-    bottom: 5px;
-    color: #007bff;
-    font-size: 0.8rem;
+    bottom: 0px;
+    color: #fff;
+    font-size: 0.7rem;
     font-weight: 600;
 }
 
 .team-item .item-cover,.team-item .info{
     position: absolute;
     width: 100%;
-    height: 100%;
     left:0;
 }
 
 .team-item .item-cover{
     top:0;
-    background-color:rgba(0, 38, 167, 0.575);
-    transition: background-color 1s ease-out 0s
+    height: 100%;
+    background-color:rgba(0, 38, 167, 0.55);
+    transition: background-color 1s ease-out 0s;
 }
 
 .team-item .info {
@@ -372,6 +373,7 @@ p {
 
 .team-item .info p{
     margin-top: 1rem;
+    font-size: 0.7rem;
 }
 
 .team-item .info-down {
@@ -388,6 +390,7 @@ p {
 
 .team-item:hover .item-cover{
     background-color:rgba(0, 38, 167, 0);
+    background-image: radial-gradient(circle at 0% 100%, #610e9a, transparent 40%, transparent 100%);
 }
 
 .team-item:hover .info-down {

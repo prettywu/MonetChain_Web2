@@ -30,7 +30,7 @@ $(function () {
 $(window).on("load resize", function () {
     var wh = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight;
     $("#section1").css("height", wh);
-    $('.view-box').scrollspy({ target: '#nav_right', offset: 100 });
+    $('.view-box').scrollspy({ target: '#nav_right', offset: 150 });
     animation();
 
     Highcharts.chart('chart_box', {
