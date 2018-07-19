@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,1922,452">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="NaN" height="NaN" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="1920" height="500" x="1" y="1" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="none" opacity="0.5" d="m0,437.5c90.70378,-87.11665 513.46841,-276.66614 690.02249,-269.11342c176.55407,7.55272 238.09983,171.37061 552.21016,44.97125c314.11032,-126.39936 532.3369,-148.94888 676.76737,-158.35783" id="svg_7" stroke="#0154fa"/>
+  <ellipse fill="none" stroke="#0154fa" cx="358" cy="249" id="svg_20" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="358" cy="249" id="svg_21" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="550" cy="188" id="svg_22" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="550" cy="188" id="svg_23" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="762" cy="180" id="svg_24" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="762" cy="180" id="svg_25" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="1545" cy="115" id="svg_26" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="1545" cy="115" id="svg_27" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="947" cy="250" id="svg_28" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="947" cy="250" id="svg_29" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="1142" cy="246" id="svg_30" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="1142" cy="246" id="svg_31" rx="3" ry="3"/>
+  <ellipse fill="none" stroke="#0154fa" cx="1331" cy="180" id="svg_32" rx="10" ry="10"/>
+  <ellipse fill="#0154fa" stroke="#000" stroke-width="0" stroke-opacity="null" cx="1331" cy="180" id="svg_33" rx="3" ry="3"/>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="276" y="289.5" id="svg_35" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">초판 백서 및 기호화폐 분</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="283.5" y="312.5" id="svg_36" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">배 등 측면의 계획 발표</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="329.5" y="224.5" id="svg_38" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2017.12</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="438" y="137.5" id="svg_39" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">커뮤니티 온라인과 오프라인 홍보</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="485.085938" y="160.5" id="svg_40" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">비즈니스 연결 협상</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="524.5" y="227.5" id="svg_41" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.01</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="733.5" y="150.5" id="svg_42" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.03</text>
+  <text style="cursor: move;" fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="700.335938" y="220.5" id="svg_43" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">거래 플랫폼 개발,</text>
+  <text style="cursor: move;" fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="689.5" y="243.5" id="svg_44" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">기호화폐 사용환경 및</text>
+  <text stroke="#0154fa" fill="#92c6ff" stroke-width="0" x="694.914063" y="266.5" id="svg_45" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">제품 협력 기초 증가</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="917.5" y="294.5" id="svg_46" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.06</text>
+  <text style="cursor: move;" fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="853.5" y="172.5" id="svg_47" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">공통인식 메커니즘, 알고리즘</text>
+  <text style="cursor: move;" fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="883.5" y="195.5" id="svg_48" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">메인 체인 설계 디테</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="1113.5" y="216.5" id="svg_49" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.08</text>
+  <text style="cursor: move;" fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="1079.164063" y="280.5" id="svg_50" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">세계 유명기구 업체</text>
+  <text style="cursor: move;" fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="1073.75" y="303.5" id="svg_51" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">비즈니스 확장과 연결</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="1305.5" y="221.5" id="svg_52" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2018.11</text>
+  <text style="cursor: move;" fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="1245.5" y="130.5" id="svg_53" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">진실환경 비공개 테스트</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="1273" y="153.5" id="svg_54" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">및 SDK 등 개발</text>
+  <text fill="#0154fa" stroke="#0154fa" stroke-width="0" x="1516.5" y="91.5" id="svg_55" font-size="17" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">2019.02</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="1480" y="155.5" id="svg_56" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">슈퍼 노드 계획 공개</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="1480" y="178.5" id="svg_57" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">메인 체인 정식 출범</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="891" y="220.5" id="svg_4" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">일 최적화 및 개발</text>
+  <text fill="#92c6ff" stroke="#0154fa" stroke-width="0" x="1105.835938" y="327.5" id="svg_5" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">병행 테스트</text>
+ </g>
+</svg>

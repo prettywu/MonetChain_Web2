@@ -1,0 +1,53 @@
+<svg width="375" height="530" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="532" width="377" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="2" x="2" height="500" width="1920" id="svg_1"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="10" rx="10" id="svg_20" cy="49.500265" cx="99.000757" stroke="#0154fa" fill="none"/>
+  <ellipse ry="3" rx="3" id="svg_21" cy="49.500265" cx="99.000757" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0154fa"/>
+  <ellipse ry="10" rx="10" id="svg_22" cy="104.750131" cx="99.00076" stroke="#0154fa" fill="none"/>
+  <ellipse ry="3" rx="3" id="svg_23" cy="104.750131" cx="99.000757" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0154fa"/>
+  <ellipse ry="10" rx="10" id="svg_24" cy="182.242212" cx="99.000757" stroke="#0154fa" fill="none"/>
+  <ellipse ry="3" rx="3" id="svg_25" cy="182.242212" cx="99.000757" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0154fa"/>
+  <ellipse ry="10" rx="10" id="svg_26" cy="459.999594" cx="99.000757" stroke="#0154fa" fill="none"/>
+  <ellipse ry="3" rx="3" id="svg_27" cy="459.999594" cx="99.000757" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0154fa"/>
+  <ellipse ry="10" rx="10" id="svg_28" cy="261.734384" cx="99.000756" stroke="#0154fa" fill="none"/>
+  <ellipse ry="3" rx="3" id="svg_29" cy="261.734384" cx="99.000756" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0154fa"/>
+  <ellipse ry="10" rx="10" id="svg_30" cy="341.999874" cx="99.000756" stroke="#0154fa" fill="none"/>
+  <ellipse ry="3" rx="3" id="svg_31" cy="341.999874" cx="99.000756" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0154fa"/>
+  <ellipse ry="10" rx="10" id="svg_32" cy="398.241906" cx="99.000759" stroke="#0154fa" fill="none"/>
+  <ellipse ry="3" rx="3" id="svg_33" cy="398.241906" cx="99.000759" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0154fa"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_35" y="54.508619" x="122.499805" stroke-width="0" stroke="#0154fa" fill="#92c6ff">初期ホワイトペーパーおよびト</text>
+  <text transform="matrix(1,0,0,1,0,0) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="17" id="svg_38" y="55.00808" x="13.500117" stroke-width="0" stroke="#0154fa" fill="#0154fa">2017.12</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_39" y="109.257981" x="121.499983" stroke-width="0" stroke="#0154fa" fill="#92c6ff">コミュニティーオンライン＆オフラ</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="17" id="svg_41" y="110.258216" x="13.500343" stroke-width="0" stroke="#0154fa" fill="#0154fa">2018.01</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="17" id="svg_42" y="187.750017" x="13.500618" stroke-width="0" stroke="#0154fa" fill="#0154fa">2018.03</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_43" y="186.7501" x="122.484612" stroke-width="0" stroke="#0154fa" fill="#92c6ff">取引プラットフォームの開発、トー</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="17" id="svg_46" y="267.250017" x="13.500922" stroke-width="0" stroke="#0154fa" fill="#0154fa">2018.06</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_47" y="290.25759" x="122.484934" stroke-width="0" stroke="#0154fa" fill="#92c6ff">ズム、メインチェーン設計の細部</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="17" id="svg_49" y="347.507675" x="13.501293" stroke-width="0" stroke="#0154fa" fill="#0154fa">2018.08</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_50" y="348.507675" x="122.48527" stroke-width="0" stroke="#0154fa" fill="#92c6ff">世界的に有名な機関やメーカーとの</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="17" id="svg_52" y="403.749706" x="14.751444" stroke-width="0" stroke="#0154fa" fill="#0154fa">2018.11</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_53" y="403.764616" x="122.485479" stroke-width="0" stroke="#0154fa" fill="#92c6ff">実環境のクローズドベータテ</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="17" id="svg_55" y="465.507419" x="13.501663" stroke-width="0" stroke="#0154fa" fill="#0154fa">2019.02</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_56" y="465.522299" x="122.485652" stroke-width="0" stroke="#0154fa" fill="#92c6ff">スーパーノードのルールの公開、メ</text>
+  <line fill="none" stroke="#0154fa" stroke-opacity="null" fill-opacity="null" x1="98.751287" y1="20" x2="99.000064" y2="500" id="svg_4" stroke-linejoin="null" stroke-linecap="null"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_5" y="209.749977" x="122.48461" stroke-width="0" stroke="#0154fa" fill="#92c6ff">クン使用情景の増加と製品協力</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_6" y="267.249781" x="122.484937" stroke-width="0" stroke="#0154fa" fill="#92c6ff">コンセンサスメカニズム、アルゴリ</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_7" y="370.499724" x="123.485265" stroke-width="0" stroke="#0154fa" fill="#92c6ff">ビジネス開発やドッキング、テスト</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_2" y="77.008619" x="123.499805" stroke-width="0" stroke="#0154fa" fill="#92c6ff">ークンの割当などの計画を発表</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_3" y="132.257981" x="121.499983" stroke-width="0" stroke="#0154fa" fill="#92c6ff">インプロモーション、ビジネスマッ</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_8" y="232.749977" x="123.48461" stroke-width="0" stroke="#0154fa" fill="#92c6ff">基盤の強化</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_9" y="313.25759" x="122.484934" stroke-width="0" stroke="#0154fa" fill="#92c6ff">に対する最適化および開発</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_11" y="427.764616" x="122.485479" stroke-width="0" stroke="#0154fa" fill="#92c6ff">ストおよびSDKなどの開発</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_12" y="487.522299" x="122.485652" stroke-width="0" stroke="#0154fa" fill="#92c6ff">インチェーンが正式に運行開始</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_13" y="155.257981" x="122.499983" stroke-width="0" stroke="#0154fa" fill="#92c6ff">チングフェア</text>
+ </g>
+</svg>
