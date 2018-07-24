@@ -69,6 +69,7 @@ p {
 
 .view-box {
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     z-index: 100;
 }
 
@@ -492,5 +493,17 @@ p {
     }
     .banner-title {
         font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #section1{
+        background-image:url('../img/banner/banner2.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    .banner-col{
+        text-align: center;
     }
 }
