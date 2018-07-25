@@ -284,6 +284,7 @@ p {
     background-image: -o-radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
     background-image: -moz-radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
     background-image: radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
+    border-bottom: 1px solid #162f88;
 }
 
 .advantage {
@@ -406,9 +407,23 @@ p {
     bottom: 100%;
 }
 
-.ul-contract a, .ul-contract i {
-    line-height: 2.5rem;
-    font-size: 1.1rem
+.ul-contract{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ul-contract i{
+    line-height: 2rem;
+    font-size: 2rem;
+    vertical-align: middle;
+    color:#007bff;
+}
+
+.ul-contract a{
+    line-height: 2rem;
+    font-size: 1rem;
+    vertical-align: middle;
 }
 
 .row-client>div {
@@ -418,7 +433,7 @@ p {
 }
 
 .row-client img {
-    width: 75%;
+    width: 100%;
 }
 
 .footer {
