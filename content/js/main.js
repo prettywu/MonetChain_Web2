@@ -12,31 +12,28 @@ var canvas2;
 var ctx2;
 
 $(function () {
-    // if(!browser.versions.mobile){
-    //     $("#nav_right a").click(function () {
-    //         $(".view-box").animate({
-    //             scrollTop: $($(this).attr("href")).get(0).offsetTop + -100 + "px"
-    //         }, {
-    //                 duration: 800,
-    //                 easing: "swing"
-    //             });
-    //         return false;
-    //     });
-    // }
+    if(!browser.versions.mobile){
+        $("#nav_right a").click(function () {
+            $(".view-box").animate({
+                scrollTop: $($(this).attr("href")).get(0).offsetTop + -100 + "px"
+            }, {
+                    duration: 800,
+                    easing: "swing"
+                });
+            return false;
+        });
+    }
 });
 
 $(window).on("load resize", function () {
     var wh = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight;
     $("#section1").css("height", wh);
     
-    
     if (!browser.versions.mobile) {
-        alert('mobile');
         $('.view-box').scrollspy({ target: '#nav_right', offset: 150 });
         animation();
     }
     else{
-        alert($('.banner-left').parent().height());
         $('.banner-left').height($('.banner-left').parent().height());
     }
 
