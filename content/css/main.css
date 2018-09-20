@@ -522,3 +522,13 @@ p {
         text-align: center;
     }
 }
+
+.market-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.market-name{
+    vertical-align: center;
+    font-size: 18px;
+}
