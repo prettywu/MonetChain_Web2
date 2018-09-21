@@ -279,7 +279,7 @@ p {
     background-image: radial-gradient(circle at 0% 100%, #610e9a, #061649 30%, #061649 100%);
 }
 
-#section8 {
+#section9 {
     background-image: -webkit-radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
     background-image: -o-radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
     background-image: -moz-radial-gradient(circle at 0% 0%, #610e9a, #061649 30%, #061649 100%);
@@ -524,11 +524,22 @@ p {
 }
 
 .market-logo{
-    width: 100px;
+    width: 100px!important;
     height: 100px;
 }
 
+.market-a:hover{
+    text-decoration: none;
+}
+
 .market-name{
+    margin-left: 15px;
     vertical-align: center;
-    font-size: 18px;
+    font-size: 22px;
+    color:#8dc9fd;
+}
+
+.market2{
+    font-size: 25px;
+    font-weight: 500;
 }
